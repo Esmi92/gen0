@@ -1,0 +1,144 @@
+body {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcmkt-image-prd.global.ssl.fastly.net%2F0.1.0%2Fps%2F939059%2F4867%2F4867%2Fm1%2Ffpnw%2Fwm0%2Fseamless-background-80s-.jpg%3F1453887697%26s%3Dcae96427f4ae60a3c866658cad825f36&f=1&nofb=1");
+    background-repeat: repeat;
+    background-size: 220px;
+    margin: 0px;
+    padding: 0px;
+}
+  
+
+#title{
+    text-align: end;
+    font-size: 70px;
+    margin: 70px;
+}
+
+.image{
+    width: 420px;
+    height: 420px;
+    margin: 10px;
+    border: 5px solid; color: white;
+    
+}
+
+#imgcontainer{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:900&display=swap');
+
+
+.navbar__logo{
+  width:200px;
+  margin-bottom:20px;
+}
+
+.gen-0-container {
+  display: flex;
+  padding: 40px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  background: #5136AD;
+  width: 100%;
+}
+
+.gen-0-dev-f {
+  font-size: 11vw;
+  line-height: 8vw;
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  background: url(https://www.cesarguerra.mx/devf/devf-gen0-pics.jpg);
+  background-size: 40%;
+  background-position: 50% 50%;
+  -webkit-background-clip: text;
+  color: rgba(0,0,0,0.08);
+  -webkit-text-stroke: 2px #2D1E60;
+  animation: zoomout 10s ease 500ms forwards;
+}
+
+@keyframes zoomout {
+  from {
+    background-size: 40%;
+  }
+  to {
+    background-size: 10%;
+  }
+}
+
+.slogan-container{
+  display:flex;
+  justify-content:center;
+  background-color: #757575;
+  padding: 20px 0px;
+}
+
+.slogan{
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 10vm;
+  color: #fff;
+  text-align: center;
+}
+
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgEMGC{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+  }
+  .linkEMGC{
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+  }
+  .btnEMGC{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,#612c84,#ef8b1a);
+    width: 420px;
+    height: 420px;
+    border: none;
+    font-size: 1.3rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 100px;
+    position: relative;
+    transition: all .6s;
+  }
+  .btnEMGC:hover{
+    border-radius: 100px 0;
+  }
+  .linkEMGC:hover{
+    color: lavender;
+  }
+  .btnEMGC::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right,#612c84,#ef8b1a);
+    width: 100%;
+    height: 100%;
+    filter: blur(22px);
+    transform: scale(0.9, 0.8) translate(28px);
+    z-index: -1;
+    opacity: 0;
+    transition: all .6s;
+  }
+  .btnEMGC:hover::before{
+    opacity: 1;
+  }
